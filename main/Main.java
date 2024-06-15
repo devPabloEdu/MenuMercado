@@ -2,7 +2,6 @@ package main;
 
 import implementation.Supermarket;
 import implementation.SupermarketArray;
-
 import java.util.Scanner;
 
 public class Main {
@@ -15,7 +14,7 @@ public class Main {
     Supermarket supermarket = new SupermarketArray(SIZE);
     int opcao;
     do {
-        System.out.println("\nLista de Compras");
+        System.out.println("\nLista de Compras ");
         System.out.println("1 - inserir ");
         System.out.println("2 - listar ");
         System.out.println("3 - remover ");
